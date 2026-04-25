@@ -1,0 +1,14 @@
+# AI Meeting Intelligence System — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ─── Core UI ───
+gradio>=4.0.0
+
+# ─── Speech-to-Text (Whisper via CTranslate2 C++ backend) ───
+faster-whisper>=1.0.0
+
+# ─── LLM Client (Ollama HTTP API) ───
+requests>=2.31.0
+
+# ─── Audio Processing (FFmpeg Python utils — optional) ───
+# FFmpeg itself must be installed separately on the system
